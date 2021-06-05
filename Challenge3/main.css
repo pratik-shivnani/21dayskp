@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: #23424a;
+  color: white;
+  padding: 8rem;
+  max-width: 2000px;
+}
+.half {
+  width: 60%;
+}
+
+h1 {
+  font-family: "Roboto Black", sans-serif;
+  font-size: 48px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2rem;
+  font-size: 21px;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background: #38cfd9;
+  border: none;
+  padding: 1rem;
+  border-radius: 50px;
+  font-size: 21px;
+}
